@@ -1,0 +1,134 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 20px;
+  background-size: cover;
+  width: 1000px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+.top-head {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+.top-para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.span-element {
+  color: #0b69ff;
+}
+.transaction-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  border-color: #cbd5e1;
+  margin-right: 40px;
+}
+.form-head {
+  color: #334155;
+  background-color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 11px;
+  margin-top: 13px;
+  font-weight: bold;
+}
+.input-element {
+  height: 27px;
+  width: 250px;
+  margin-top: 8px;
+}
+.drop-down {
+  background-color: transparent;
+  height: 27px;
+  width: 250px;
+  margin-top: 8px;
+  outline: none;
+  border-style: solid;
+  border-color: #7e858e;
+  border-width: 1px;
+  border-radius: 2px;
+  color: #334155;
+  font-family: 'Roboto';
+}
+.add-btn {
+  background-color: #0b69ff;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 8px;
+  width: 90px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  border-color: #cbd5e1;
+}
+.history-head {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.list-item {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7e8792;
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-right: 50px;
+}
+.amount {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-right: 50px;
+}
+.type {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-right: 50px;
+}

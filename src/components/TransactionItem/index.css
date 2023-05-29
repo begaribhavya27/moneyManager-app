@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.history-item {
+  border-style: solid;
+  border-top-style: none;
+  border-width: 1px;
+  border-color: #7e8792;
+  display: flex;
+  flex-direction: row;
+}
+.history-title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-right: 50px;
+}
+.history-amount {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-right: 50px;
+}
+.history-type {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-right: 50px;
+}
+.delete-img {
+  width: 10px;
+  margin-right: 50px;
+}
+.delete-btn {
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+}
